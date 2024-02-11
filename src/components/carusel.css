@@ -1,0 +1,99 @@
+/* carusel.css */
+
+.full-page-container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.carousel-item {
+  /* border: 1px solid #ccc;  */
+  width: 100px; /* Width of the div */
+  height: 300px; /* Height of the div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add any additional styling for the slide content */
+.slide-content {
+  /* Add styles for the content inside each slide */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.caruselbackground {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.9),
+      rgba(34, 34, 34, 0.9)
+    ),
+    url("../assets//minibackground1.jpg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+.caruselbackground span {
+  margin-bottom: 100px;
+}
+
+.caruselbackground h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.slick-dots button {
+  width: 12px;
+  height: 12px;
+  border: none;
+  border-radius: 50%;
+  background-color: #4caf50;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots button:hover {
+  background-color: #4caf50;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  flex-direction: column; /* Center any text inside the figure */
+}
+
+.testimonial-img {
+  margin-top: 20px;
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.testimonial blockquote {
+  margin-top: 40px;
+  font-style: italic;
+}

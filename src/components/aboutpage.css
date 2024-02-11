@@ -1,0 +1,112 @@
+.aboutpagesec {
+  height: 180vh;
+  width: 100%;
+}
+
+.aboutpagecon {
+  height: 35vh;
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.aboutpagecon h1 {
+  margin: 15px;
+  font-size: 35px;
+}
+
+.aboutpagecon::before {
+  content: "";
+  height: 35vh;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.9),
+      rgba(34, 34, 34, 0.9)
+    ),
+    url("../assets//minibackground1.jpg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.aboutimg {
+  width: 400px;
+  height: 550px;
+}
+
+.aboutpagediv {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 10rem;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+.aboutpageinfo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  line-height: 1.5;
+}
+.aboutpageinfo button {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #45a049;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.aboutpageinfo button:hover {
+  cursor: pointer;
+}
+.aboutpageinfo h1 {
+  font-size: 35px;
+  margin: 20px;
+}
+
+.aboutpageinfo h3 {
+  margin: 20px;
+}
+
+.aboutimg {
+  background: url("../assets/aboutimg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutsmallinfos {
+  padding: 0 10rem;
+
+  height: 50vh;
+  gap: 40px;
+  display: flex;
+}
+
+.aboutsmallinfo {
+  width: 500px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutsmallinfo h1 {
+  margin: 20px;
+  font-size: 35px;
+}

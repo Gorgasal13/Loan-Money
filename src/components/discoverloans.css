@@ -1,0 +1,18 @@
+.discoverloan {
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discoverloan h1 {
+  margin-bottom: 20px;
+}
+
+.discoverloan span {
+  font-size: 18px;
+}

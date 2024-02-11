@@ -1,0 +1,157 @@
+.home {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home::before {
+  position: absolute;
+  content: "";
+  height: 100vh;
+  background: url("../assets/background.jpg") center top no-repeat fixed;
+  object-fit: cover;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.homeinfo {
+  color: black;
+  z-index: 9999;
+  padding: 10rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  align-self: start;
+  align-items: flex-start;
+  width: 40%;
+}
+.homeinfo h1 {
+  font-size: 38px;
+  white-space: nowrap;
+}
+.homeform {
+  background: white;
+  width: 100%;
+  height: 500px;
+  margin: 10rem;
+}
+
+.homeform form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.homeform h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* Create a flex container for the row */
+.row-form-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%; /* Set width to 48% for both inputs */
+}
+
+.form-group.label-full-width {
+  width: 100%; /* Set width to 100% for "Repayment" input */
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+/* Adjust the styles for the row of Name and Phone */
+.row-form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-form-group .form-group input {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.homeinfo p {
+  margin-top: 50px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.btnsdiv {
+  margin-top: 100px;
+  display: flex;
+}
+
+.btns {
+  height: 50px;
+  margin-right: 20px;
+  width: 180px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#firstbtns {
+  background-color: #45a049;
+  transition: all 0.3s;
+}
+
+#secondbtns {
+  transition: all 0.3s;
+  background-color: #0a1d56;
+}
+
+#firstbtns:hover {
+  background-color: #3f8d42;
+}
+#secondbtns:hover {
+  background-color: #071640;
+}

@@ -1,0 +1,104 @@
+.discoversec {
+  height: 60vh;
+  display: flex;
+}
+
+.discoverdiv {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.discoverdiv strong {
+  color: #45a049;
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+
+.discoverdiv h2 {
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.discoverdiv p,
+.discoverdiv button {
+  display: none;
+  margin: 0;
+  color: white;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.discoverdiv:hover strong {
+  opacity: 0;
+}
+
+.discoverdiv:hover h2 {
+  transform: translateY(-100%);
+}
+
+.discoverdiv:hover p,
+.discoverdiv:hover button {
+  display: block;
+  transform: translateY(-100%);
+}
+
+#minione::before,
+#minitwo::before,
+#minithree::before,
+#minifour::before,
+#minifive::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.6);
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+#minione::before {
+  background-image: url("../assets/minibackground1.jpg");
+}
+
+#minitwo::before {
+  background-image: url("../assets/minibackground2.jpg");
+}
+
+#minithree::before {
+  background-image: url("../assets/minibackground3.jpg");
+}
+
+#minifour::before {
+  background-image: url("../assets/minibackground4.jpg");
+}
+
+#minifive::before {
+  background-image: url("../assets/minibackground5.jpg");
+}
+
+.discoverdiv:hover::before {
+  filter: brightness(0.4);
+}
+
+.discoverpagebtn {
+  width: 100px;
+  background-color: #4caf50;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+}

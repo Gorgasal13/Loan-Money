@@ -1,0 +1,68 @@
+.contactsec {
+  height: 50vh;
+  display: flex;
+  padding: 0 10rem;
+  margin: 3rem;
+}
+
+.contact-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.contact-text h3 {
+  border-bottom: 2px solid #4caf50;
+  width: 30%;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conform input {
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+
+.conform input::placeholder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.conform button {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.conform button:hover {
+  background-color: #3f8d42;
+  cursor: pointer;
+}

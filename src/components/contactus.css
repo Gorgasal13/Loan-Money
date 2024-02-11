@@ -1,0 +1,65 @@
+.contactussec {
+  height: 120vh;
+}
+
+.contactusdiv {
+  padding: 0 10rem;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  margin-top: 50px;
+}
+
+.contactusdiv h1 {
+  font-size: 35px;
+}
+
+.contactform {
+  height: 500px;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+.contactform input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contactform button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background: #45a049;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.contactform button:hover {
+  background-color: #3f8d42;
+  cursor: pointer;
+}
+
+.firstinputs {
+  display: flex;
+  gap: 30px;
+}
+
+#message {
+  height: 200px;
+}
+
+input::placeholder {
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
+
+#message::placeholder {
+  text-align: flex-start;
+}
