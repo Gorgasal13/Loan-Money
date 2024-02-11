@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <div className="homeinfo">
         <h1>Find The Best Monthly Payment</h1>
-        <p>Apply for our business loan in minutes, without painful</p>
+        <p>Apply for our business loan in minutes, without any problems</p>
         <div className="btnsdiv">
           <button className="btns" id="firstbtns">
             get started
